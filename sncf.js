@@ -11,5 +11,17 @@ var sncf = [
 	{ ville: 'Bordeaux', trajet: 'Toulouse', duree: 180 },
 	{ ville: 'Toulouse', trajet: 'Mompellier', duree: 240 },
 	{ ville: 'Lyon', trajet: 'Marseille', duree: 90 },
-	{ ville: 'Paris-Nord', trajet: 'Londres', duree: 150 }
+	{ ville: 'Paris-Nord', trajet: 'Londres', duree: 150 },
+	{ ville: 'Berlin', trajet: 'Munich', duree: 120 }
 ];
+
+function find_station(sncf) {
+	for (x in sncf) {
+		if (sncf[x].name == name) {
+			return sncf[x];
+		}
+	}
+	return false;
+}
+
+function find_target_road(sncf) {}
