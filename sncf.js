@@ -6,7 +6,6 @@ var sncf = [
 	{ ville: 'Paris-Monparnasse', trajet: 'Rennes', duree: 125 },
 	{ ville: 'Paris-Monparnasse', trajet: 'Bordeaux', duree: 180 },
 	{ ville: 'Paris-Monparnasse', trajet: 'Paris-Nord', duree: 15 },
-	{ ville: 'Paris-Monparnasse', trajet: 'Rennes', duree: 125 },
 	{ ville: 'Rennes', trajet: 'Brest', duree: 75 },
 	{ ville: 'Bordeaux', trajet: 'Toulouse', duree: 180 },
 	{ ville: 'Toulouse', trajet: 'Mompellier', duree: 240 },
